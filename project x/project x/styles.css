@@ -1,0 +1,29 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: aqua;
+}
+
+.chocolate-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chocolate-item {
+    border: 2px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.chocolate-item.selected {
+    background-color: rgb(163, 24, 47);
+}
+
+#custom-pack-summary {
+    margin-top: 20px;
+    text-align: left;
+}
